@@ -22,6 +22,11 @@ const connect = function() {
     conn.write("Name: JCI");
   });
 
+  // conn.on('data', () => {
+  //   console.log("Move: up");
+  //   conn.write("Move: up");
+  // });
+
   return conn;
 }
 module.exports = { connect };
